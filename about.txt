@@ -1,0 +1,36 @@
+BroadCast - The Ultimate Messaging Application
+
+BroadCast is an extended communications application that removes the limitations of a basic chat application. Within the application there are 5 main core elements.
+ - The Chat/Main room: Users can talk to each other within a beautiful UI. Users are notified of any members entering or exiting the chat room.
+ - UI Customization Page: Allows the user to tailor the look and feel of the application to their liking.
+ - Draw-board: A synchronized draw-board that tracks user activity and saves it within the server so users can collaboratively illustrate their ideas and/or play games such as hangman, pictionary, etc.
+ - Tic Tac Toe: The fun, classic game of Tic Tac Toe, embedded within BroadCast, allows users to play a game while simultaneously talking in the chatroom.
+ - File Sharing System: A file sharing system integrated within BroadCast so users can share text files to all other members of the chatroom.
+
+Key Concepts Used:
+ - Java Swing with FlatLAF UI
+ - Server-client architecture with multithreading
+ - Graphics and BufferedImage for drawing and saving from the draw-board
+ - File parsing and writing for file transfer
+
+How to Run:
+ - Clone the repository to your local machine.
+ - Run Servers.java to start all the required servers.
+ - Run ChatApplicationMain.java to start the client application.
+
+Collaborators:
+ - Alexis Ryan
+ - Matteo De Angelis Geraldo
+ - Noah Robertson
+ - Ryan Coones
+ - Thomas Petkovic
+
+Resources Used:
+- https://docs.oracle.com/javase/8/docs/api/java/text/BreakIterator.html
+- https://docs.oracle.com/javase/tutorial/2d/text/measuringtext.html
+- https://docs.oracle.com/javase/8/docs/api/javax/swing/text/SimpleAttributeSet.html
+- https://docs.oracle.com/javase/8/docs/api/javax/swing/text/StyleConstants.html
+- https://docs.oracle.com/javase/8/docs/api/
+- https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html
+- https://www.formdev.com/flatlaf/
+- https://docs.oracle.com/javase/8/docs/api/java/awt/image/BufferedImage.html
