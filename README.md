@@ -64,7 +64,7 @@ Upload, Download, Delete and Refresh files
 
 # How to Run:
 1. Install Java 23 on your local machine
-2. Run `git clone https://github.com/OntarioTech-CS-program/w25-csci2020u-finalproject-w25-team42.git` to clone the repository to your machine.
+2. Run `git clone https://github.com/RyanCoones/broadcast-app` to clone the repository to your machine.
 2. Run the file `RunAllServers.java` located in `src/main/java` to activate all the servers we are using.
    1. note that if the server is not running, functionality for the main application will not work. 
 3. Run the file `ChatApplicationMain.java` located in `src/main/java/Chat` to create a client instance.
